@@ -1,0 +1,144 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.nav-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.nav-button:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+.middle-image {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    filter: blur(3px) brightness(50%);
+    
+}
+
+.middle-button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1rem;
+
+
+}
+
+.middle-buttons {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.middle-content {
+    position: relative;
+    height: 240px;
+}
+
+.middle-button-icon {
+    margin-right: 7px;
+}
+
+
+h1 {
+    font-family: 'Inria Serif';
+    font-weight: 300;
+}
+
+
+.header-content h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+.main-image {
+    width: 60%;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.main-info {
+    width: 40%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.main-buttons button {
+    width: 90%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+.call-for-price {
+    color: black;
+    background-color: white;
+}
+
+.call-back {
+    color: white;
+    background-color: orange;
+}
+
+.button-icon-info {
+    margin-left: 10px;
+}
+
+.car-info {
+    font-size: 1.5rem;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.car-value {
+    text-align: left;
+    margin: 0;
+}
+
+.car-info-element {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.car-info-icon {
+    margin-right: 20px;
+}
