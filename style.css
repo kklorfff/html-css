@@ -1,6 +1,7 @@
 body {
     background-color: white;
     margin: 0;
+    font-family: 'Inria Serif';
 }
 
 .navbar {
@@ -19,6 +20,7 @@ body {
     border: 2px solid black;
     font-size: 1rem;
     font-weight: 550;
+    font-family: 'Inria Serif';
 }
 
 .nav-button:hover {
@@ -30,7 +32,9 @@ body {
     height: 95%;
     object-fit: cover;
     filter: blur(3px) brightness(50%);
-    
+    background-image: url("assets/image794.jpg");
+    background-size: 100%;
+    background-position: center;
 }
 
 .middle-button {
@@ -38,10 +42,12 @@ body {
     color: white;
     padding: 5px 10px;
     font-size: 1rem;
-
-
+    font-family: 'Inria Serif';
 }
 
+.middle-button:hover{
+    background-color: rgb(46, 46, 46);
+}
 .middle-buttons {
     position: absolute;
     bottom: 0;
@@ -59,7 +65,6 @@ body {
 
 
 h1 {
-    font-family: 'Inria Serif';
     font-weight: 300;
 }
 
@@ -101,18 +106,23 @@ h1 {
     border: 1px solid black;
     padding: 10px 20px;
     font-size: 1.5rem;
+    font-family: 'Inria Serif';
 }
 
-.call-for-price {
+button.call-for-price:hover {
     color: black;
-    background-color: white;
+    background-color: rgb(204, 200, 200);
 }
+
 
 .call-back {
-    color: white;
-    background-color: orange;
+    color: rgb(255, 255, 255);
+    background-color: #D9B64B;
 }
 
+button.call-back:hover{
+    background-color: #caa022;
+}
 .button-icon-info {
     margin-left: 10px;
 }
@@ -129,6 +139,10 @@ h1 {
 .car-value {
     text-align: left;
     margin: 0;
+}
+
+.info-icon {
+    margin-right: 10px;
 }
 
 .car-info-element {
